@@ -30,7 +30,7 @@ services:
       mysql:
         condition: service_healthy
 
-  # MySQL Service
+  # MySQL ServiceChris
   mysql:
     image: mysql
     environment:
